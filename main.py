@@ -40,7 +40,6 @@ while True:
     if user_input.lower() == 'q':
         break
 
-    # If you didn't type anything, go scrape a quote
     if not user_input.strip():
         print("Scraping inspiration...")
         final_prompt = get_random_quote()
