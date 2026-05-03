@@ -19,7 +19,6 @@ def get_random_quote():
 
 
 def generate_story(user_prompt):
-    # This specific formatting helps the AI understand it MUST follow your prompt
     prompt_content = (
         f"Write a 3-sentence story specifically about this prompt: {user_prompt}. "
         "Do not write about anything else. Focus on the action."
